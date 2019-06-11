@@ -1,0 +1,150 @@
+body {
+    font-family: 'Share', cursive;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    padding: 80px;
+    text-align: center;
+    color: white;
+    background: url("city.jpg") no-repeat center fixed; 
+    background-size: cover;
+    text-shadow: 2px 2px 0 black; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #262626;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin-top: -71px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #60799f;
+    color: white;
+}
+
+.container1 {
+    color: white;
+    text-align: left;
+    padding: 20px 60px 100px 60px;
+}
+
+.container1 p {
+    font-size: 20px;
+}
+.container2 {
+    background: #60799f;
+   
+}
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 5px;
+}
+
+.container3 {
+    color: white;
+    text-align: left;
+    padding: 100px 60px 10px 60px;
+}
+
+.container4 {
+    background: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    padding: 4px 10px;
+    float: left;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.column1:hover {
+    -webkit-filter: blur(3px);
+}
+
+.column2 {
+    padding: 4px 10px;
+    float: left;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.column2:hover {
+    -webkit-filter: blur(3px);
+}
+
+.column3 {
+    padding: 4px 10px;
+    float: left;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.column3:hover {
+    -webkit-filter: blur(3px);
+}
+
+.column4 {
+    padding: 4px 10px;
+    float: left;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.column4:hover {
+    -webkit-filter: blur(3px);
+}
+
+footer {
+    padding: 10px 10px ;
+    text-align: center;
+    background-color: #60799f;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}

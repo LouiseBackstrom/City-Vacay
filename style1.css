@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Share', cursive;
+}
+
+header {
+    padding: 150px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0 black; 
+}
+
+.headerparis {
+    background: url("paris8.jpg") no-repeat center fixed; 
+    background-size: cover;
+}
+
+.headerlondon {
+    background: url("london8.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.headernewyork {
+    background: url("newyork16.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.headerbangkok {
+    background: url("bangkok2.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #262626;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin-top: -71px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active1 {
+    background-color: #ff884d;
+    color: black; 
+}
+
+.navbar a.active2 {
+    background-color: #cc0000;
+    color: black; 
+}
+
+.navbar a.active3 {
+    background-color: #ffa31a;
+    color: black; 
+}
+
+.navbar a.active4 {
+    background-color: #0000cc;
+    color: white;
+}
+
+.container1 {
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.container2 {
+    background: white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;  
+}
+
+.column {
+    padding: 4px 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+.column1 {
+    float: left;
+    color: white;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+    
+.column2 {
+    float: left;
+    color: white;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+ 
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container4 {
+    padding: 40px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.footer1 {
+    padding: 10px 10px ;
+    text-align: center;
+    background-color: #ff884d;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.footer2 {
+    padding: 10px 10px ;
+    text-align: center;
+    background-color: #cc0000;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.footer3 {
+    padding: 10px 10px ;
+    text-align: center;
+    background-color: #ffa31a;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.footer4 {
+    padding: 10px 10px ;
+    text-align: center;
+    background-color: #0000cc;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
