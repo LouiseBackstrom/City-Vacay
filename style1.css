@@ -12,22 +12,22 @@ header {
 }
 
 .headerparis {
-    background: url("paris8.jpg") no-repeat center fixed; 
+    background: url("img/paris8.jpg") no-repeat center fixed; 
     background-size: cover;
 }
 
 .headerlondon {
-    background: url("london8.jpg") no-repeat center fixed;
+    background: url("img/london8.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 .headernewyork {
-    background: url("newyork16.jpg") no-repeat center fixed;
+    background: url("img/newyork16.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 .headerbangkok {
-    background: url("bangkok2.jpg") no-repeat center fixed;
+    background: url("img/bangkok2.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
